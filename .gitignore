@@ -1,0 +1,36 @@
+# Arduino / IDE
+*.elf
+*.bin
+*.hex
+*.map
+build/
+.arduino15/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Evidencias forenses (no subir capturas reales al repo público)
+*.pcap
+*.csv
+/samples/*.pcap
+!/samples/sample_capture.pcap
+
+# Logs del dispositivo
+phish_log.txt
+ids_log.txt
+scan.csv
+
+# Documentos con información sensible
+*.bak
+*.tmp
+
+# VS Code / IntelliJ
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
