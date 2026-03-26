@@ -1,6 +1,6 @@
 # Hardware
 
-Aquí van los archivos STL para imprimir la carcasa en PETG blanco.
+Archivos STL para imprimir la carcasa en PETG blanco.
 - CyberDeck_Bisel_Frontal.stl
 - CyberDeck_Base_Trasera.stl
 
