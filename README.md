@@ -13,7 +13,7 @@
 
 El CyberDeck Edu-Sec es una herramienta portátil de auditoría inalámbrica y análisis forense diseñada para el laboratorio de ciberseguridad del ISTE. Construida sobre el módulo ESP32-2432S028R (CYD — *Cheap Yellow Display*), integra **10 módulos** ofensivos, forenses y defensivos controlados mediante una pantalla táctil de 2.8" con estética *Terminal Hacker*.
 
-El objetivo es democratizar el acceso al pentesting práctico: un dispositivo de USD 75.50 que reemplaza herramientas comerciales de USD 149–169 (Flipper Zero, WiFi Pineapple).
+El objetivo es democratizar el acceso al pentesting práctico: un dispositivo de USD 81 que reemplaza herramientas comerciales de USD 149–169 (Flipper Zero, WiFi Pineapple).
 
 ---
 
@@ -41,9 +41,9 @@ El objetivo es democratizar el acceso al pentesting práctico: un dispositivo de
 | Módulo CYD | ESP32-2432S028R (pantalla TFT 320×240, táctil XPT2046) | USD 45 |
 | MicroSD | Clase 10, FAT32, hasta 32 GB | USD 15 |
 | Cable Micro-USB | 5V, 1A mínimo (alimentación y programación) | USD 2 |
-| Carcasa 3D | PETG blanco, diseño Clamshell (archivos STL incluidos) | USD 8.50 |
-| Accesorios | Tornillos M3, insertos de latón | USD 5 |
-| **Total** | | **USD 75.50** |
+| Carcasa 3D | PETG blanco, diseño Clamshell (archivos STL incluidos) | USD 15 |
+| Accesorios | Tornillos M3, stilus | USD 4 |
+| **Total** | | **USD 81** |
 
 ---
 
@@ -73,7 +73,7 @@ Copiar el archivo `config/User_Setup.h` a la carpeta de instalación de TFT_eSPI
 ### Paso 3 — Configurar la placa
 
 En **Herramientas**:
-- Placa: `ESP32 Dev Module`
+- Placa: `ESP32-2432S028R CYD`
 - CPU Frequency: `240 MHz`
 - Flash Size: `4MB`
 - Upload Speed: `921600`
@@ -107,11 +107,7 @@ Proyecto-CyberDeck-EduSec-ISTE/
 ├── hardware/
 │   ├── CyberDeck_Bisel_Frontal.stl # Pieza 3D — bisel frontal (PETG blanco)
 │   ├── CyberDeck_Base_Trasera.stl  # Pieza 3D — base trasera (PETG blanco)
-│   └── Pinout_ESP32_CYD.png        # Diagrama de pines del módulo CYD
 │
-├── docs/
-│   ├── Propuesta_Tecnologica_ISTE.docx  # Documento de titulación
-│   └── Manual_Usuario_CyberDeck.pdf     # Manual de operación
 │
 ├── samples/
 │   └── sample_capture.pcap         # Muestra de captura forense para Wireshark
