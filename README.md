@@ -100,6 +100,9 @@ Proyecto-CyberDeck-EduSec-ISTE/
 │   └── EduSec_v2_1_UI/
 │       ├── EduSec_v2_1_UI.ino      # Firmware principal (v2.1 UI Edition)
 │       └── User_Setup.h            # ⚠ Copiar a carpeta TFT_eSPI
+│ 
+│── docs/
+│   └── Manual_Usuario_CyberDeck.pdf         # manual de usuario de CyberDeck
 │
 ├── config/
 │   └── User_Setup.h                # Configuración de pines del CYD
